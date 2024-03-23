@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+.container h1 {
+  margin-bottom: 20px;
+}
+.container .container {
+  display: flex;
+  justify-content: center;
+}
+.container .container .board {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+.container .container .board .cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.container .container .board .cell:hover {
+  background-color: #f0f0f0;
+}
+.container #status {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.container #restart-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
